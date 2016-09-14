@@ -34,4 +34,5 @@ def play_music(music_file, volume=0.8):
 music_file = "fire.mp3"
 # optional volume 0 to 1.0
 volume = 0.8
-play_music(music_file, volume)
+for x in range(0,3):
+	play_music(music_file, volume)
